@@ -1,0 +1,123 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.heading
+{
+    background-color: black;
+    height: 100px;
+    padding-left: 700px;
+    padding-top: 33px;
+}
+body 
+{
+    font-family: "montserrat";
+    background-color: white;
+}
+h1
+{
+    color: white;
+    background-color: #000;
+}
+.cir1
+{
+    border-radius: 50px;
+    color: white;
+    height: 550px;
+    width: 400px;
+    border: 20px;
+    padding: 2%;
+    margin-top: 5px;
+    text-align: center;
+    box-shadow: #000;
+    background-color: #000;
+
+}
+.outer-card 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 3%;
+}
+.inner-card-1 
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    padding-top: 0px;
+    top: 331.0663;
+    top: 250px;
+
+}
+.circle1 
+{
+    border-radius: 50%;
+    background: lightgreen;
+    box-shadow: inset 17px 17px 34px #ffffff, inset -17px -17px 34px #fffefe;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-top: 0%;
+}
+.timer 
+{
+    font-family: "montserrat";
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #000;
+}
+.timer-time
+{
+    padding-top: 10%;
+    padding-bottom: 25%;
+}
+.btn-start
+{
+    margin-right: 5%;
+    background-color: yellowgreen;
+    color: #000;
+}
+.btn-stop
+{
+    margin-right: 5%;
+    background-color: orangered;
+    color: #000;
+}
+.btn-reset
+{
+    background-color: orange;
+    color: #000;
+}
+.timer-seconds, .timer-minutes 
+{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: "sacremanto";
+    margin:10px;
+}
+.target 
+{
+    transform: scale(1);
+}
+.target:hover 
+{
+    transform: scale(1.01); 
+}
+.target1 
+{
+    padding: 5%;
+    border-radius: 20px;
+    transform: scale(1);
+}
+.target1:hover 
+{
+    transform: 
+    scale(1.02); 
+}
